@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import { fetchEvents } from "../../utils/http";
 import LoadingIndicator from "../UI/LoadingIndicator";
 import ErrorBlock from "../UI/ErrorBlock";
+import EventItem from "./EventItem";
 
 export default function FindEventSection() {
 	const searchElement = useRef();
